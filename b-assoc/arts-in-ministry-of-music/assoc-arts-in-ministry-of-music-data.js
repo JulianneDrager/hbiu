@@ -2,12 +2,12 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Music Production and Ministry</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-9.jpg",
     credits: 50,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Arts in Music Production and Ministry is a two-year undergraduate degree that combines music, production, and ministry training. This program equips students with the essential skills and techniques for composing and editing music, as well as for engaging in the music production sector. Participants acquire proficiency in music creation software, virtual instruments, recording fundamentals, and studio methodologies. Additionally, they develop an understanding of industry-standard practices for producing music tailored for visual media.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Arts in Music Production and Ministry is a two-year undergraduate degree that combines music, production, and ministry training. This program equips students with the essential skills and techniques for composing and editing music, as well as for engaging in the music production sector. Participants acquire proficiency in music creation software, virtual instruments, recording fundamentals, and studio methodologies. Additionally, they develop an understanding of industry-standard practices for producing music tailored for visual media.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Music Theory and History</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Music Performance (vocal or instrumental)</li>`,

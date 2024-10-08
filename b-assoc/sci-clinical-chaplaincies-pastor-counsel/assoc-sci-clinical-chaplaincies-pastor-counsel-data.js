@@ -2,13 +2,13 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Science in Clinical Chaplaincy and Pastoral Counseling (AS-CPC)</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-14.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Science in Clinical Chaplaincy and Pastoral Counseling (AS-CPC) is a two-year undergraduate degree that prepares students for chaplaincy, pastoral counseling, and spiritual care roles. Chaplains offer guidance, counseling, and comfort to people of all faiths, especially during difficult times. If you are looking for meaningful work that allows you to care for people when they need spiritual support the most, a chaplaincy might be right for you. Chaplains work in a variety of settings, including medical facilities, universities, prisons, camps, and workplaces. There are many paths to a career in chaplaincy, including Central Seminary’s chaplaincy certificate program.</div>`,
-      `<div style='color: gray;'>Our accredited online program is taught by experienced, compassionate faculty and provides a basic theological and biblical foundation for pastors, church leaders, and prospective students who want to develop a professional-level identity for spiritual caregiving.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Science in Clinical Chaplaincy and Pastoral Counseling (AS-CPC) is a two-year undergraduate degree that prepares students for chaplaincy, pastoral counseling, and spiritual care roles. Chaplains offer guidance, counseling, and comfort to people of all faiths, especially during difficult times. If you are looking for meaningful work that allows you to care for people when they need spiritual support the most, a chaplaincy might be right for you. Chaplains work in a variety of settings, including medical facilities, universities, prisons, camps, and workplaces. There are many paths to a career in chaplaincy, including Central Seminary’s chaplaincy certificate program.</div>`,
+      `<div style='color: gray;' class='mb-10'>Our accredited online program is taught by experienced, compassionate faculty and provides a basic theological and biblical foundation for pastors, church leaders, and prospective students who want to develop a professional-level identity for spiritual caregiving.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Theological Foundations</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Pastoral Counseling and Care</li>`,

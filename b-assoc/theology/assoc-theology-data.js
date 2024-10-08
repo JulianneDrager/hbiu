@@ -2,13 +2,13 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Theology (AAT)</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-2.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>An Associate of Arts in Theology (AAT) is a two-year undergraduate degree that focuses on the study of theology, biblical studies, and ministry. Survey courses on the Old and New Testaments guide students through the various books of the Bible, offering insights into their historical context, background, and contemporary relevance. Examples of such courses include Creation & Covenants, Israel’s Life & Literature, Interpreting the Bible, Life of Christ, and Early Church.</div>`,
-      `<div style='color: gray;'>Theology courses illuminate the overarching narrative of the Bible, demonstrating the connections between the Old and New Testaments as they reveal the progression of God's story. Our Bible faculty often express that "theology is faith seeking understanding." Notable courses in this area include Christian Narrative: Creation & Fall, Christian Narrative: Redemption, and Christianity & Culture 1 & 2, as well as Drawing Near to God.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>An Associate of Arts in Theology (AAT) is a two-year undergraduate degree that focuses on the study of theology, biblical studies, and ministry. Survey courses on the Old and New Testaments guide students through the various books of the Bible, offering insights into their historical context, background, and contemporary relevance. Examples of such courses include Creation & Covenants, Israel’s Life & Literature, Interpreting the Bible, Life of Christ, and Early Church.</div>`,
+      `<div style='color: gray;' class='mb-10'>Theology courses illuminate the overarching narrative of the Bible, demonstrating the connections between the Old and New Testaments as they reveal the progression of God's story. Our Bible faculty often express that "theology is faith seeking understanding." Notable courses in this area include Christian Narrative: Creation & Fall, Christian Narrative: Redemption, and Christianity & Culture 1 & 2, as well as Drawing Near to God.</div>`,
       `<div style='color: gray;'>Additionally, courses in the Arts & Sciences, along with professional electives, are designed to enhance your ability to think critically, write effectively, and communicate both God's Word and your personal faith with greater clarity. It's designed to provide a foundational education in:</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Biblical Studies (Old and New Testament)</li>`,

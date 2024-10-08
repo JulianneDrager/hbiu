@@ -2,13 +2,13 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in IT and Ministry Support</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-18.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Arts in IT and Ministry Support is a two-year undergraduate degree combining IT support courses with ministry support studies. Our online IT Essentials Program is designed to meet the demands of the ever-evolving technology sector. As advancements in technology continue to emerge, this program provides an opportunity to gain a foundational understanding of essential IT concepts. Participants in this certificate program will be introduced to a wide range of topics within the IT field. Graduates will find themselves well-prepared for entry-level roles such as Computer Network Specialist, IT Helpdesk Support, Network System Administrator, and Computer Systems Analyst. Enhance your knowledge and equip yourself for a career in the dynamic realm of technology by expanding your expertise in the following core areas:</div>`,
-      `<div style='color: gray;'>Networking, Digital Devices, Network Security, Programming, Operating Systems, among others.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Arts in IT and Ministry Support is a two-year undergraduate degree combining IT support courses with ministry support studies. Our online IT Essentials Program is designed to meet the demands of the ever-evolving technology sector. As advancements in technology continue to emerge, this program provides an opportunity to gain a foundational understanding of essential IT concepts. Participants in this certificate program will be introduced to a wide range of topics within the IT field. Graduates will find themselves well-prepared for entry-level roles such as Computer Network Specialist, IT Helpdesk Support, Network System Administrator, and Computer Systems Analyst. Enhance your knowledge and equip yourself for a career in the dynamic realm of technology by expanding your expertise in the following core areas:</div>`,
+      `<div style='color: gray;' class='mb-10'>Networking, Digital Devices, Network Security, Programming, Operating Systems, among others.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>IT Support (networking, hardware, software)</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Ministry Support (church administration, outreach)</li>`,

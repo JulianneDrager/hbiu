@@ -2,12 +2,12 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Fine Arts Ministry</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-11.jpg",
     credits: 50,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Arts in Fine Arts Ministry is a two-year undergraduate degree that combines fine arts, dance, theater, and ministry training. We strive to view our students as unique individuals. Consequently, we will take into account your personal aspirations and objectives as we assist you in reaching your full potential as an artist. Our philosophy embraces a comprehensive approach to training, which, irrespective of specialization, necessitates practical experience across all facets of theatre and dance production. We actively encourage our students to participate in the creation of both theatre and dance.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Arts in Fine Arts Ministry is a two-year undergraduate degree that combines fine arts, dance, theater, and ministry training. We strive to view our students as unique individuals. Consequently, we will take into account your personal aspirations and objectives as we assist you in reaching your full potential as an artist. Our philosophy embraces a comprehensive approach to training, which, irrespective of specialization, necessitates practical experience across all facets of theatre and dance production. We actively encourage our students to participate in the creation of both theatre and dance.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Fine Arts (visual arts, music, etc.)</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Dance (technique, choreography, etc.)</li>`,

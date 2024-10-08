@@ -2,13 +2,13 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Science in Emergency Management and Faith-based Initiative</span>",
-    imageUrl: "../../assets/img/course/01-ba-em.jpg",
+    imageUrl: "../../assets/img/course/aa-7.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Science Degree in Emergency Management and Faith-based Initiative is structured to be entirely online. Each technical course within the curriculum will feature a weekly lecture that is recorded and made available in the online course environment. Students who are in proximity to the campus may choose to attend these lectures in person, although attendance is not mandatory. A significant number of the courses utilize open educational resources (OER) sourced from the Federal Emergency Management Agency and the Department of Homeland Security, providing students with essential knowledge and resources relevant to their future careers, while also eliminating the need for purchasing textbooks.</div>`,
-      `<div style='color: gray;'>Throughout the program, students have the chance to collaborate with community partners and participate in various trainings, workshops, and exercises. This engagement enables students to work alongside professionals from diverse emergency response disciplines, thereby facilitating the practical application of the concepts acquired during their studies. This is a two-year undergraduate degree that combines emergency management principles with faith-based perspectives and initiatives.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Science Degree in Emergency Management and Faith-based Initiative is structured to be entirely online. Each technical course within the curriculum will feature a weekly lecture that is recorded and made available in the online course environment. Students who are in proximity to the campus may choose to attend these lectures in person, although attendance is not mandatory. A significant number of the courses utilize open educational resources (OER) sourced from the Federal Emergency Management Agency and the Department of Homeland Security, providing students with essential knowledge and resources relevant to their future careers, while also eliminating the need for purchasing textbooks.</div>`,
+      `<div style='color: gray;' class='mb-10'>Throughout the program, students have the chance to collaborate with community partners and participate in various trainings, workshops, and exercises. This engagement enables students to work alongside professionals from diverse emergency response disciplines, thereby facilitating the practical application of the concepts acquired during their studies. This is a two-year undergraduate degree that combines emergency management principles with faith-based perspectives and initiatives.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Emergency Management</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Faith-Based Initiatives</li>`,

@@ -2,7 +2,7 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Divinity (AAD)</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-12.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
