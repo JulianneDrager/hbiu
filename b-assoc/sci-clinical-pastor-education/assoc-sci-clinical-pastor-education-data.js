@@ -2,14 +2,14 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Science in Clinical Pastoral Education</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-13.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Science in Clinical Pastoral Education is a two-year undergraduate degree that combines theological education with clinical training in pastoral care, preparing students for chaplaincy, pastoral ministry, or other roles in spiritual care. An Associate of Science degree is not required for Clinical Pastoral Education (CPE) certification. However, CPE can prepare students for careers in chaplaincy, counseling, teaching, lay ministry, and parish ministry.</div>`,
-      `<div style='color: gray;'>CPE is a professional education program that integrates theological knowledge with behavioral sciences and human development theory. Students gain experience working with people in crisis, and develop skills in interpersonal and interprofessional relationships. They also learn how to provide spiritual care and culturally sensitive support to patients, family members, and team members. CPE programs are offered at hospitals, clinics, and community agencies across the country.</div>`,
-      `<div style='color: gray;'>Some things to expect from a CPE program include:</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Science in Clinical Pastoral Education is a two-year undergraduate degree that combines theological education with clinical training in pastoral care, preparing students for chaplaincy, pastoral ministry, or other roles in spiritual care. An Associate of Science degree is not required for Clinical Pastoral Education (CPE) certification. However, CPE can prepare students for careers in chaplaincy, counseling, teaching, lay ministry, and parish ministry.</div>`,
+      `<div style='color: gray;' class='mb-10'>CPE is a professional education program that integrates theological knowledge with behavioral sciences and human development theory. Students gain experience working with people in crisis, and develop skills in interpersonal and interprofessional relationships. They also learn how to provide spiritual care and culturally sensitive support to patients, family members, and team members. CPE programs are offered at hospitals, clinics, and community agencies across the country.</div>`,
+      `<div style='color: gray;' class='mb-10'>Some things to expect from a CPE program include:</div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Clinical time: Students spend time with patients in a clinical setting.</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Seminars: Students attend verbatim seminars.</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Didactic sessions: Students participate in didactic sessions.</li>`,

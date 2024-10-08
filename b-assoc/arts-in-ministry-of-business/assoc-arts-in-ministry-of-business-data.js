@@ -1,13 +1,13 @@
 const pagesData = [
   {
     title: "<span style='color: black;'>Associate of Arts in Management</span>",
-    imageUrl: "../../assets/img/course/ma-1.jpg",
+    imageUrl: "../../assets/img/course/aa-12.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Arts in Management is a two-year undergraduate degree combining business management principles with ministry training. This program equips you with a managerial position by offering a comprehensive understanding of business, management, and economics, complemented by liberal arts courses. This program is particularly suited for students who are interested in the business field, with a focus on managerial and leadership dimensions, and is available entirely online.</div>`,
-      `<div style='color: gray;'>What You Will Learn: The AA in Management lays the groundwork for understanding the principles of managing a business or organization within a global and competitive landscape. It offers an introductory perspective on management, featuring courses that cover essential topics such as information systems, human resources, marketing, leadership, and economics.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Arts in Management is a two-year undergraduate degree combining business management principles with ministry training. This program equips you with a managerial position by offering a comprehensive understanding of business, management, and economics, complemented by liberal arts courses. This program is particularly suited for students who are interested in the business field, with a focus on managerial and leadership dimensions, and is available entirely online.</div>`,
+      `<div style='color: gray;' class='mb-10'>What You Will Learn: The AA in Management lays the groundwork for understanding the principles of managing a business or organization within a global and competitive landscape. It offers an introductory perspective on management, featuring courses that cover essential topics such as information systems, human resources, marketing, leadership, and economics.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Business Management (finance, marketing, etc.)</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Ministry and Worship Studies</li>`,

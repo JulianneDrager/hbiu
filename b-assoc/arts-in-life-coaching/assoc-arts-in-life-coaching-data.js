@@ -2,12 +2,12 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Life Coaching (AALC)</span>",
-    imageUrl: "../../assets/img/course/ma-17.jpg",
+    imageUrl: "../../assets/img/course/aa-15.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>Life coaches offer specialized support to assist their clients in identifying and achieving significant objectives. This comprehensive course is designed to equip you with the skills necessary to become a life coach and to initiate your own coaching business. You will gain knowledge of the Core Competencies established by HBIU. This program is a two-year undergraduate degree that prepares students to become life coaches, empowering individuals to achieve personal and professional goals.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>Life coaches offer specialized support to assist their clients in identifying and achieving significant objectives. This comprehensive course is designed to equip you with the skills necessary to become a life coach and to initiate your own coaching business. You will gain knowledge of the Core Competencies established by HBIU. This program is a two-year undergraduate degree that prepares students to become life coaches, empowering individuals to achieve personal and professional goals.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Life Coaching Principles and Practices</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Psychology and Human Development</li>`,

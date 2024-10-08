@@ -2,12 +2,12 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Science in Humanitarianism and Conflict Response</span>",
-    imageUrl: "../../assets/img/course/01-ba-em.jpg",
+    imageUrl: "../../assets/img/course/aa-8.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Science Degree in Humanitarianism and Conflict Response is a two-year undergraduate degree that prepares students to respond to humanitarian crises and conflicts. Humanitarianism and conflict response are two interconnected fields that address the complexities of human suffering and crisis. Humanitarianism focuses on alleviating suffering, promoting dignity, and protecting human life, while conflict response addresses the specific challenges posed by conflicts, disasters, and other crises. Humanitarianism is a values-driven approach that prioritizes the well-being and dignity of individuals affected by crises. It encompasses:</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Science Degree in Humanitarianism and Conflict Response is a two-year undergraduate degree that prepares students to respond to humanitarian crises and conflicts. Humanitarianism and conflict response are two interconnected fields that address the complexities of human suffering and crisis. Humanitarianism focuses on alleviating suffering, promoting dignity, and protecting human life, while conflict response addresses the specific challenges posed by conflicts, disasters, and other crises. Humanitarianism is a values-driven approach that prioritizes the well-being and dignity of individuals affected by crises. It encompasses:</div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Relief aid (food, shelter, healthcare)</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Protection (human rights, safety)</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Advocacy (policy change, awareness)</li>`,

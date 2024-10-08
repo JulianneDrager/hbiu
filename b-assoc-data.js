@@ -1,7 +1,7 @@
 const courses = [
   {
     tag: "Arts in divinity",
-    imgSrc: "./assets/img/course/ma-2.jpg",
+    imgSrc: "./assets/img/course/aa-1.jpg",
     link: "b-assoc/arts-in-divinity/assoc-arts-in-divinity.html",
     title: "Associate of Arts in Divinity (AAD)",
     description:
@@ -10,7 +10,7 @@ const courses = [
   },
   {
     tag: "Theology",
-    imgSrc: "./assets/img/course/ma-3.jpg",
+    imgSrc: "./assets/img/course/aa-2.jpg",
     link: "b-assoc/theology/assoc-theology.html",
     title: "Associate in Theology (ATH)",
     description:
@@ -19,7 +19,7 @@ const courses = [
   },
   {
     tag: "Prophetic Ministry",
-    imgSrc: "./assets/img/course/ma-4.jpg",
+    imgSrc: "./assets/img/course/aa-3.jpg",
     link: "b-assoc/prophetic-ministry/assoc-prophetic-ministry.html",
     title: "Associate in Prophetic Ministry (APM)",
     description:
@@ -28,7 +28,7 @@ const courses = [
   },
   {
     tag: "Christian Leadership & Culture",
-    imgSrc: "./assets/img/course/ma-4.jpg",
+    imgSrc: "./assets/img/course/aa-4.jpg",
     link: "b-assoc/christian-leadership/assoc-christian-leadership.html",
     title: "Assoc. in Christian Leadership & Culture (AACLCM) ",
     description:
@@ -37,7 +37,7 @@ const courses = [
   },
   {
     tag: "Christian Education",
-    imgSrc: "./assets/img/course/ma-6.jpg",
+    imgSrc: "./assets/img/course/aa-5.jpg",
     link: "b-assoc/christian-education/assoc-christian-education.html",
     title: "Assoc. in Christian Education (AACE) ",
     description:
@@ -46,7 +46,7 @@ const courses = [
   },
   {
     tag: "Chaplaincy",
-    imgSrc: "./assets/img/course/ma-7.jpg",
+    imgSrc: "./assets/img/course/aa-6.jpg",
     link: "b-assoc/arts-in-chaplaincy/assoc-arts-in-chaplaincy.html",
     title: "Associate of Arts in Chaplaincy (AAC)",
     description:
@@ -55,7 +55,7 @@ const courses = [
   },
   {
     tag: "Emergency Management",
-    imgSrc: "./assets/img/course/ma-8.jpg",
+    imgSrc: "./assets/img/course/aa-7.jpg",
     link: "b-assoc/emergency-management/assoc-emergency-management.html",
     title: "Assoc. in Emergency Management & Faith-Based Initiative (AAEMFBI)",
     description:
@@ -64,7 +64,7 @@ const courses = [
   },
   {
     tag: "Humanitarianism and Conflict",
-    imgSrc: "./assets/img/course/ma-9.jpg",
+    imgSrc: "./assets/img/course/aa-8.jpg",
     link: "b-assoc/arts-in-humanitarianism/assoc-arts-in-humanitarianism.html",
     title: "Assoc. in Humanitarianism and Conflict Response (AAHCR) ",
     description:
@@ -73,7 +73,7 @@ const courses = [
   },
   {
     tag: "Music, Production & Ministry",
-    imgSrc: "./assets/img/course/ma-10.jpg",
+    imgSrc: "./assets/img/course/aa-9.jpg",
     link: "b-assoc/arts-in-ministry-of-music/assoc-arts-in-ministry-of-music.html",
     title: "Assoc. in Music, Production, and Ministry (AAMPM)",
     description:
@@ -82,7 +82,7 @@ const courses = [
   },
   {
     tag: "Music & Theory ",
-    imgSrc: "./assets/img/course/ma-11.jpg",
+    imgSrc: "./assets/img/course/aa-10.jpg",
     link: "b-assoc/arts-in-ministry-of-music-theory/assoc-arts-in-ministry-of-music-theory.html",
     title: "Assoc. in Ministry of Music & Theory (AAMMT) ",
     description:
@@ -91,7 +91,7 @@ const courses = [
   },
   {
     tag: "Fine Arts, Dance, & Theater",
-    imgSrc: "./assets/img/course/ma-12.jpg",
+    imgSrc: "./assets/img/course/aa-11.jpg",
     link: "b-assoc/arts-in-ministry-of-fine-arts/assoc-arts-in-ministry-of-fine-arts.html",
     title: "Assoc. in Ministry of Fine Arts, Dance, & Theater (AAMFDT)",
     description:
@@ -100,7 +100,7 @@ const courses = [
   },
   {
     tag: "Business and Ministry",
-    imgSrc: "./assets/img/course/ma-13.jpg",
+    imgSrc: "./assets/img/course/aa-12.jpg",
     link: "b-assoc/arts-in-ministry-of-business/assoc-arts-in-ministry-of-business.html",
     title: "Assoc. in Business Management and Ministry (AABMM)",
     description:
@@ -109,7 +109,7 @@ const courses = [
   },
   {
     tag: "Pastoral Education",
-    imgSrc: "./assets/img/course/ma-14.jpg",
+    imgSrc: "./assets/img/course/aa-13.jpg",
     link: "/b-assoc/sci-clinical-pastor-education/assoc-sci-clinical-pastor-education.html",
     title: "Assoc. of Science. in Clinical Pastoral Education (AS-CPE) ",
     description:
@@ -118,7 +118,7 @@ const courses = [
   },
   {
     tag: "Chaplaincies Pastoral Counseling",
-    imgSrc: "./assets/img/course/ma-15.jpg",
+    imgSrc: "./assets/img/course/aa-14.jpg",
     link: "b-assoc/sci-clinical-chaplaincies-pastor-counsel/assoc-sci-clinical-chaplaincies-pastor-counsel.html",
     title: "Assoc. of Science and Clinical Chaplaincies Pastoral Counseling",
     description:
@@ -127,7 +127,7 @@ const courses = [
   },
   {
     tag: "Life Coaching",
-    imgSrc: "./assets/img/course/ma-16.jpg",
+    imgSrc: "./assets/img/course/aa-15.jpg",
     link: "b-assoc/arts-in-life-coaching/assoc-arts-in-life-coaching.html",
     title: "Associate of Arts in Life Coaching (AALC)",
     description:
@@ -136,7 +136,7 @@ const courses = [
   },
   {
     tag: " Music & Business Minor Ministry",
-    imgSrc: "./assets/img/course/ma-17.jpg",
+    imgSrc: "./assets/img/course/aa-16.jpg",
     link: "b-assoc/arts-in-music-minor-business-ministry/assoc-arts-in-music-minor-business-ministry.html",
     title: "Assoc in Music & Business with Business in Ministry Minor (AAMBM)",
     description:
@@ -145,7 +145,7 @@ const courses = [
   },
   {
     tag: "Marketing Faith Initiative Minor",
-    imgSrc: "./assets/img/course/ma-18.jpg",
+    imgSrc: "./assets/img/course/aa-17.jpg",
     link: "b-assoc/arts-in-marketing-minor-faith-base/assoc-arts-in-marketing-minor-faith-base.html",
     title:
       "Assoc. of Arts in Marketing and Advertising with a Faith-Based Initiative Minor (AAMAFBI) ",
@@ -155,7 +155,7 @@ const courses = [
   },
   {
     tag: " IT Support Ministry Minor",
-    imgSrc: "./assets/img/course/ma-19.jpg",
+    imgSrc: "./assets/img/course/aa-18.jpg",
     link: "b-assoc/arts-in-it-support-minor-ministry-support/assoc-arts-in-it-support-minor-ministry-support.html",
     title: "Assoc. of Arts in IT Support with Ministry Support Minor (AAITMS)",
     description:
@@ -164,7 +164,7 @@ const courses = [
   },
   {
     tag: "Christian Counseling",
-    imgSrc: "./assets/img/course/ma-14.jpg",
+    imgSrc: "./assets/img/course/aa-19.jpg",
     link: "/b-assoc/sci-christian-counseling/assoc-sci-christian-counseling.html",
     title: "Associate of Science in Christian Counseling (ASCC) ",
     description:

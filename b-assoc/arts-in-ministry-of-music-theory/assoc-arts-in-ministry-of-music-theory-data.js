@@ -2,12 +2,12 @@ const pagesData = [
   {
     title:
       "<span style='color: black;'>Associate of Arts in Music Ministry</span>",
-    imageUrl: "../../assets/img/course/ma-1.jpg",
+    imageUrl: "../../assets/img/course/aa-10.jpg",
     credits: 60 - 70,
     length: "2 YEARS",
     description: [
-      `<div style='color: gray;'><strong>Program Description</strong></div>`,
-      `<div style='color: gray;'>The Associate of Arts in Music Ministry is a two-year undergraduate degree that combines music theory, ministry training, and practical music skills. This program equips you with biblical knowledge and critical-thinking abilities essential for analyzing various leadership styles, philosophical frameworks, theories, and dynamics of change. Additionally, you will explore how God cultivates leaders and how to unlock an individual's leadership potential, thereby deepening your expertise in your selected area of concentration.</div>`,
+      `<div style='color: gray;' class='mb-10'><strong>Program Description</strong></div>`,
+      `<div style='color: gray;' class='mb-10'>The Associate of Arts in Music Ministry is a two-year undergraduate degree that combines music theory, ministry training, and practical music skills. This program equips you with biblical knowledge and critical-thinking abilities essential for analyzing various leadership styles, philosophical frameworks, theories, and dynamics of change. Additionally, you will explore how God cultivates leaders and how to unlock an individual's leadership potential, thereby deepening your expertise in your selected area of concentration.</div>`,
       `<div class='mt-3' style='color: gray;'><b>Core Areas:</b></div>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Music Theory and Composition</li>`,
       `<li style='list-style-type: disc; margin-left: 2rem; color: gray;'>Music History and Literature</li>`,
