@@ -1,0 +1,77 @@
+const pagesData = [
+  {
+    title: "Certificate in Ministry Supportive Services",
+    imageUrl: "../../assets/img/course/cert-9.jpg",
+    credits: 30,
+    length: "3 MONTHS",
+    description: [
+      `<div>A Certificate in Ministry Supportive Services is a specialized program designed to provide individuals with the foundational knowledge and skills required to work in information technology (IT) support roles. IT support professionals assist organizations and individuals in resolving technical issues related to computer systems, hardware, software, networks, and more. Here's what you can generally expect from a Certificate in IT Support program:</div>`,
+
+      `<div class='mt-3'><b>Core Curriculum:</b></div>`,
+      `<div>Certificate programs in Ministry Supportive Services typically include core courses, including:</div>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Hardware and Software Troubleshooting:</b> Learning to diagnose and resolve hardware and software problems commonly encountered by end-users.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Operating Systems:</b> Understanding different operating systems (e.g., Windows, macOS, Linux) and their configurations.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Network Fundamentals:</b> Basic knowledge of computer networks, including protocols, routing, and troubleshooting network issues.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Cybersecurity Basics:</b> Awareness of cybersecurity best practices and how to protect computer systems from threats.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Customer Service Skills:</b> Developing effective communication and customer service skills for working with end-users.</li>`,
+
+      `<div class='mt-3'><b>Practical Application:</b></div>`,
+      `<div>Many programs include hands-on labs, simulations, and real-world scenarios to help students apply their knowledge and gain practical experience.</div>`,
+
+      `<div class='mt-3'><b>Industry Certifications:</b></div>`,
+      `<div>Some programs prepare students for industry-recognized certifications, such as CompTIA A+, which can enhance job prospects.</div>`,
+
+      `<div class='mt-3'><b>Ethical and Professional Considerations:</b></div>`,
+      `<div>Discussion of ethical and professional responsibilities in IT support, including data privacy and confidentiality.</div>`,
+
+      `<div class='mt-3'><b>Career Opportunities:</b></div>`,
+      `<div>A Certificate in IT Support can lead to various entry-level IT support positions, including:</div>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Technical Support Specialist:</b> Providing technical assistance to end-users, troubleshooting issues, and resolving technical problems.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Help Desk Technician:</b> Working on a help desk team to assist users with technical inquiries and problems.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Desktop Support Technician:</b> Focusing on maintaining and supporting desktop computers within an organization.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>IT Support Analyst:</b> Analyzing and resolving IT issues, often in a larger corporate IT environment.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Field Service Technician:</b> Visiting client locations to provide on-site IT support and maintenance.</li>`,
+      `<li style='list-style-type: disc; margin-left: 2rem'><b>Remote Support Specialist:</b> Offering support services remotely, either for a single organization or as part of a managed IT service provider.</li>`,
+
+      `<div class='mt-3'>Before enrolling in a Certificate in IT Support program, individuals should consider their career goals and whether the program aligns with their aspirations for a career in IT support. It's essential to research the program's curriculum.</div>`,
+
+      `<div class='mt-3'><b>Chapters:</b></div>`,
+      `<div>Ch 1. Introduction to Computers: Help and Review</div>`,
+      `<div>Ch 2. Information Systems in Organizations: Help and Review</div>`,
+      `<div>Ch 3. Hardware and Systems Technology: Help and Review</div>`,
+      `<div>Ch 4. Systems Software and Application Software: Help and Review</div>`,
+      `<div>Ch 5. Internet, Intranet, and Extranet: Help and Review</div>`,
+      `<div>Ch 6. Network Systems Technology: Help and Review</div>`,
+      `<div>Ch 7. Remote Connections: Help and Review</div>`,
+      `<div>Ch 8. Enterprise Business Systems: Help and Review</div>`,
+      `<div>Ch 9. Decision Support & Specialized Information Systems: Help & Review</div>`,
+      `<div>Ch 10. Systems Development: Help and Review</div>`,
+      `<div>Ch 11. Data Management: Help and Review</div>`,
+      `<div>Ch 12. Ethical, Social & Business Issues in IT: Help & Review</div>`,
+      `<div>Ch 13. Introduction to Programming: Help and Review</div>`,
+      `<div>Ch 14. Learning Computer Science</div>`,
+      `<div>Ch 15. Business, Social & Ethical Implications & Issues: Help & Review</div>`,
+      `<div>Ch 16. Working with Java</div>`,
+      `<div>Ch 17. Java Programming Terminology</div>`,
+      `<div>Ch 18. Java Programming Overview</div>`,
+      `<div>Ch 19. Java Programming Problems</div>`,
+      `<div>Ch 20. GUI Graphics in Java</div>`,
+    ],
+    professorImg: "../../assets/img/team/logo.png", // Update the professor image URL as needed
+    professorName: "HBIU", // Update the professor name as needed
+    category: "IT Support",
+    enrolled: 111,
+    courseTime: "3 Months",
+    courseFees: "$600",
+    lectures: 4,
+    quizes: " ",
+    duration: "3 Months",
+    language: "English",
+    skillLevel: "Intermediate",
+    location: "Online/On Campus",
+    students: 114,
+    certificate: "Yes",
+    assessments: "Yes",
+  },
+  // Add more page data objects here
+];

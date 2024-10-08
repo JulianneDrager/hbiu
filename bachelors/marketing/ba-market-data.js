@@ -1,0 +1,82 @@
+const pagesData = [
+  {
+    title: "Bachelor of Arts in Marketing Advertising",
+    imageUrl: "../../assets/img/course/15.jpg",
+    credits: 120,
+    length: "3 YEARS (can be completed in 3)",
+    description: [
+      "Program can be completed in 3 years. A Bachelor of Arts in Marketing Advertising is an undergraduate degree program that focuses on the principles and practices of marketing and advertising. The program is designed to equip students with knowledge and skills in areas such as consumer behavior, market research, branding, advertising strategies, digital marketing, and communication.<br/><br/>",
+
+      "Throughout the program, students will learn how to create effective marketing and advertising campaigns that attract and engage target audiences. They will also gain an understanding of how to analyze consumer behavior and market trends, as well as how to use various media channels to reach and influence customers.<br/><br/>",
+
+      "Graduates with a BA in Marketing Advertising can pursue various career paths, including roles in marketing management, advertising, public relations, media planning, market research, and sales. They may work in a variety of industries, including retail, healthcare, entertainment, hospitality, and technology. Some graduates may also choose to pursue advanced degrees in marketing, business, or related fields.<br/><br/>",
+    ],
+    courseOutline: [
+      "<strong>Bachelor's degree in Marketing and Advertising:</strong><br/><br/>",
+
+      "<strong>Year 1:</strong><br/>",
+      "<ul>",
+      "<li style='list-style-type: disc' class='ms-3'>Introduction to Marketing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Principles of Advertising</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Fundamentals of Consumer Behavior</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Business Communication</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Marketing Research</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Mathematics for Business and Economics</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Principles of Management</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Microeconomics</li>",
+      "</ul><br/>",
+
+      "<strong>Year 2:</strong><br/>",
+      "<ul>",
+      "<li style='list-style-type: disc' class='ms-3'>Digital Marketing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Brand Management</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Advertising Copywriting</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Sales Management</li>",
+      "<li style='list-style-type: disc' class='ms-3'>International Marketing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Advertising Media Planning</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Marketing Strategy</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Macroeconomics</li>",
+      "</ul><br/>",
+
+      "<strong>Year 3:</strong><br/>",
+      "<ul>",
+      "<li style='list-style-type: disc' class='ms-3'>Marketing Analytics</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Social Media Marketing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Public Relations</li>",
+      "<li style='list-style-type: disc' class='ms-3'>E-commerce and online Retailing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Creative Advertising</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Advertising Campaign Planning</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Consumer Insights</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Services Marketing</li>",
+      "</ul><br/>",
+
+      "<strong>Year 4:</strong><br/>",
+      "<ul>",
+      "<li style='list-style-type: disc' class='ms-3'>Marketing Ethics and Social Responsibility</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Cross-cultural Marketing</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Integrated Marketing Communications</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Advanced Marketing Research</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Retail Management</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Entrepreneurship</li>",
+      "<li style='list-style-type: disc' class='ms-3'>Capstone Project</li>",
+      "</ul><br/>",
+    ],
+
+    professorImg: "../../assets/img/team/logo.png", // Update the professor image URL as needed
+    professorName: "HBIU", // Update the professor name as needed
+    category: "Marketing & Advertising",
+    enrolled: 45,
+    courseTime: "04 Years",
+    courseFees: "$20,000",
+    lectures: 4,
+    quizes: " ",
+    duration: "3 Years",
+    language: "English",
+    skillLevel: "Basic",
+    location: "Online/On Campus",
+    students: 104,
+    certificate: "Yes",
+    assessments: "Yes",
+  },
+  // Add more page data objects here
+];

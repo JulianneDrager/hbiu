@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/all-fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/magnific-popup.min.css" /> -->
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+      /* Lightbox styles */
+      .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        padding-top: 60px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      .lightbox-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+      }
+
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.3s;
+        user-select: none;
+        content: "TEST";
+      }
+
+      .prev {
+        left: 0;
+      }
+
+      .next {
+        right: 0;
+      }
+
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="loader-book">
+        <div class="loader-book-page"></div>
+        <div class="loader-book-page"></div>
+        <div class="loader-book-page"></div>
+      </div>
+    </div>
+    <!-- preloader end ----------------->
+
+    <!-- HEADER GOES HERE -->
+    <div id="header-container"></div>
+
+    <!-- breadcrumb -->
+    <div
+      class="site-breadcrumb"
+      style="background: url(../assets/img/plaw/g10.jpg)"
+    >
+      <div class="container">
+        <h2 class="breadcrumb-title">2023 P.L.A.W Awarded Honorees</h2>
+        <ul class="breadcrumb-menu">
+          <li><a href="../e-plaw.html">P.L.A.W Awards</a></li>
+          <li class="active">2023 P.L.A.W Awarded Honorees</li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- GALLERY AREA LOADED HERE -->
+    <div class="site-heading text-center">
+      <h2 class="site-title mt-5">
+        2022 Presidential <span>Lifetime Achievement</span> Awards
+      </h2>
+      <p id="gallery-22-description"></p>
+    </div>
+    <div class="row" id="gallery-22-items">
+      <!-- Gallery items will be injected here by JavaScript -->
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+      <div id="caption"></div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+
+    <!-- FOOTER GOES HERE -->
+    <div id="footer-container"></div>
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up-from-arc"></i></a>
+    <!-- scroll-top end -->
+
+    <!-- js -->
+    <script src="../assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="../assets/js/modernizr.min.js" defer></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../assets/js/imagesloaded.pkgd.min.js" defer></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js" defer></script>
+    <script src="../assets/js/isotope.pkgd.min.js" defer></script>
+    <script src="../assets/js/jquery.appear.min.js" defer></script>
+    <script src="../assets/js/jquery.easing.min.js" defer></script>
+    <script src="../assets/js/owl.carousel.min.js" defer></script>
+    <script src="../assets/js/counter-up.js" defer></script>
+    <script src="../assets/js/wow.min.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
+
+    <!-- header and footer -->
+    <script src="../e-header/header.js"></script>
+    <script src="../e-footer/footer.js"></script>
+
+    <script src="../e-22-plaw/e-plaw-22-gallery-ext-map.js" defer></script>
+    <script src="../e-22-plaw/e-plaw-22-gallery-ext-data.js" defer></script>
+  </body>
+</html>

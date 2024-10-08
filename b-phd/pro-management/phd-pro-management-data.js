@@ -1,0 +1,58 @@
+const pagesData = [
+  {
+    title: "Doctor of Project Management and Leadership",
+    imageUrl: "../../assets/img/course/phd-12.jpg",
+    credits: 120,
+    length: "3-5 YEARS",
+    description: [
+      `<div class='mb-20'>A Doctor of Project Management and Leadership is a terminal degree that focuses on the advanced study of project management and leadership principles, practices, and techniques.</div>`,
+
+      `<div>The program prepares students for careers in senior project management, leadership, and executive roles. Coursework typically includes:</div>`,
+      `<li style=' margin-left: 2rem'>1. Advanced Project Management</li>`,
+      `<li style=' margin-left: 2rem'>2. Leadership Theory and Practice</li>`,
+      `<li style=' margin-left: 2rem'>3. Strategic Management</li>`,
+      `<li style=' margin-left: 2rem'>4. Organizational Behavior and Change</li>`,
+      `<li style=' margin-left: 2rem'>5. Risk Management and Quality Assurance</li>`,
+      `<li style=' margin-left: 2rem'>6. Project Portfolio Management</li>`,
+      `<li style=' margin-left: 2rem'>7. Global Project Management</li>`,
+      `<li style=' margin-left: 2rem'>8. Leadership and Team Development</li>`,
+      `<li style=' margin-left: 2rem'>9. Research Methods and Dissertation</li>`,
+
+      `<div class='mt-3'>The program culminates in an original dissertation that contributes to the field of project management and leadership. Graduates with a Doctor of Project Management and Leadership can pursue careers as:</div>`,
+      `<li style=' margin-left: 2rem'>1. Senior Project Manager</li>`,
+      `<li style=' margin-left: 2rem'>2. Executive or CEO</li>`,
+      `<li style=' margin-left: 2rem'>3. Project Management Consultant</li>`,
+      `<li style=' margin-left: 2rem'>4. Leadership Coach or Mentor</li>`,
+      `<li style=' margin-left: 2rem'>5. Academic Researcher or Professor</li>`,
+      `<li style=' margin-left: 2rem'>6. Business Development Manager</li>`,
+      `<li style=' margin-left: 2rem'>7. Operations Manager</li>`,
+      `<li style=' margin-left: 2rem'>8. Management Consultant</li>`,
+
+      `<div class='mt-3'>Skills and knowledge gained through this degree program include:</div>`,
+      `<li style=' margin-left: 2rem'>1. Advanced understanding of project management principles and practices</li>`,
+      `<li style=' margin-left: 2rem'>2. Strong leadership and management skills</li>`,
+      `<li style=' margin-left: 2rem'>3. Strategic thinking and planning</li>`,
+      `<li style=' margin-left: 2rem'>4. Analytical and problem-solving skills</li>`,
+      `<li style=' margin-left: 2rem'>5. Communication and interpersonal skills</li>`,
+      `<li style=' margin-left: 2rem'>6. Global project management perspectives and practices</li>`,
+      `<li style=' margin-left: 2rem'>7. Research and dissertation skills</li>`,
+      `<li style=' margin-left: 2rem'>8. Ability to lead and manage complex projects and teams</li>`,
+    ],
+    professorImg: "../../assets/img/team/logo.png", // Update the professor image URL as needed
+    professorName: "HBIU", // Update the professor name as needed
+    category: "Education",
+    enrolled: 96,
+    courseTime: "03-05 Years",
+    courseFees: "$40,000",
+    lectures: 4,
+    quizes: " ",
+    duration: "3-5 Years",
+    language: "English",
+    skillLevel: "Basic",
+    location: "Online/On Campus",
+    students: 95,
+    certificate: "Yes",
+    assessments: "Yes",
+  },
+  // Add more page data objects here
+];
