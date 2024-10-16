@@ -9,7 +9,7 @@ const galleryData = [
         imgAlt: "Prof. Dr. Dornett McIntosh",
         description: `<h4 class='mb-1'>Prof. Dr. Dornett McIntosh</h4>
                       <p style='line-height:normal'>CEO / Chancellor</p>`,
-        alink: `<a href="#">LEARN MORE</a>`,
+        alink: `<a href="./dornett/dornett.html">LEARN MORE</a>`,
       },
       {
         imgSrc: "../assets/img/team/teach/2-fac.webp",
@@ -23,7 +23,7 @@ const galleryData = [
         imgAlt: "Apostle Joseph Njuguna",
         description: `<h4 class='mb-1'>Apostle Joseph Njuguna</h4>
                       <p style='line-height:normal'>Director of HBI University International Affairs</p>`,
-        alink: `<a href="#">LEARN MORE</a>`,
+        alink: `<a href="./joseph/joseph.html">LEARN MORE</a>`,
       },
       {
         imgSrc: "../assets/img/team/teach/4-fac.webp",

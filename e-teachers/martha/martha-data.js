@@ -1,23 +1,22 @@
 const pageData = [
   {
-    title: "Stuckey",
+    title: "Martha",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters packages and web page editors now usepackages and web page editors now use. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet",
+      "Dr. Martha Kirungu Nafula is the program director for the counseling and psychology department.",
     items: [
       {
-        imgSrc: "../../assets/img/team/teach/1.jpg",
-        imgAlt: "Prof. Dr. Dornett Mcintosh",
-        name: "Prof. Dr. Dornett Mcintosh",
-        title: "Instructor: Chaplaincy",
-        description:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters packages and web page editors now usepackages and web page editors now use. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-        location: "25/B Milford Road, New York",
-        email: "dornett@example.com",
-        phone: "123-456-7890",
+        imgSrc: "../../assets/img/team/teach/3a.jpg",
+        imgAlt: "Dr. Martha Kirungu Nafula",
+        name: "Dr. Martha Kirungu Nafula",
+        title: "Instructor & Program Dir.",
+        description: "MA & PhD Counseling...",
+        location: "789 Oak Street, San Francisco",
+        email: "richard@example.com",
+        phone: "444-555-6666",
         biography:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters packages and web page editors now usepackages and web page editors now use. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-        skills: "Theology, Chaplaincy, Counseling",
-        alink: `<a href="e-teachers/dornett/dornett.html">LEARN MORE</a>`,
+          "Dr. Martha Kirungu Nafulaa is the program director for the counseling and psychology department.",
+        skills: "Counseling, Psychology, Mental Health",
+        alink: "<a href='e-teachers/martha/martha.html'>LEARN MORE</a>",
       },
     ],
   },

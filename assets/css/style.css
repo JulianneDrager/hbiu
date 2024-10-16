@@ -2041,6 +2041,22 @@ label {
   color: var(--theme-color);
 }
 
+/* accreditions page */
+
+.acc-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (min-width: 728px) {
+  .acc-btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+}
+
 
 @media all and (max-width: 991px) {
   .about-right {

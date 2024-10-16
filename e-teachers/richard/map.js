@@ -1,60 +1,49 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   const contentDiv = document.getElementById("content");
 
-  // Function to generate HTML for a page
   function generatePageHTML(pageData) {
     return `
 <!-- team single -->
 <div class="team-single pt-120 pb-80">
   <div class="container">
     <div class="row align-items-center">
-
-      ${pageData.items.map((item) => {
-        return `
-       <div class="col-md-4">
+      <div class="col-md-4">
+        ${pageData.items.map((item) => {
+          return `
         <div class="team-single-img">
           <img src="${item.imgSrc}" alt="${item.imgAlt}" />
         </div>
+        `;
+        })}
       </div>
-      `;
-      })}
-
       <div class="col-md-8">
         <div class="team-details">
           ${pageData.items.map((item) => {
             return `
           <h3>${item.name}</h3>
-          <strong>${item.title}</strong>
-          `;
+          <strong>${item.title}</strong>`;
           })}
-
           <p class="mt-3">
             ${pageData.description}
           </p>
-
           ${pageData.items.map((item) => {
             return `
-             <div class="team-details-info">
+          <div class="team-details-info">
             <ul>
               <li>
-                <a href="#">
-                  <i class="far fa-location-dot"></i>${item.location}
-                </a>
+                <a href="#"><i class="far fa-location-dot"></i> 25/B Milford Road,
+                  ${item.location}</a>
               </li>
               <li>
-                <a href="#">
-                  <i class="far fa-envelope"></i>${item.email}
-                </a>
+                <a href="#"><i class="far fa-envelope"></i> ${item.email}</a>
               </li>
               <li>
-                <a href="#">
-                  <i class="far fa-phone"></i>${item.phone}
-                </a>
+                <a href="#"><i class="far fa-phone"></i> ${item.phone}</a>
               </li>
             </ul>
-          </div>`;
+          </div>
+          `;
           })}
-
           <div class="team-details-social">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-whatsapp"></i></a>
@@ -73,17 +62,18 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="biography-skil pb-120">
   <div class="container">
     <div class="row">
-
-      ${pageData.items.map((item) => {
-        return `
-        <div class="col-md-6">
+           ${pageData.items.map((item) => {
+             return `
+      <div class="col-md-6">
         <div class="biography">
-          <h4 class="mb-3">${item.biography}</h4>
-          <p class="mb-10">${item.skills}</p>
+          <p class="mt-3"> ${item.biography}</p>
+          <p class="mb-10">
+            ${item.skills}
+          </p>
         </div>
-      </div>;`;
-      })}
-
+      </div>
+      `;
+           })}
       <div class="col-md-6">
         <div class="team-skill">
           <h4 class="mb-3">Professional Skills</h4>
@@ -113,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 </div>
 <!-- biography & skill end -->
+
 `;
   }
 

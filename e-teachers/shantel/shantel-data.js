@@ -1,25 +1,23 @@
 const pageData = [
   {
-    title: "Stuckey",
+    title: "Shantel",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters packages and web page editors now usepackages and web page editors now use. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet",
+      "Prof. Dr. Shantel Cox is the program director for the counseling and psychology department.",
     items: [
       {
-        imgSrc: "../../assets/img/team/teach/1.jpg",
-        imgAlt: "Prof. Dr. Dornett Mcintosh",
-        name: "Prof. Dr. Dornett Mcintosh",
-        title: "Instructor: Chaplaincy",
-        description: "BA in Theology | NCE Training",
-        location: "25/B Milford Road, New York",
-        email: "dornett@example.com",
-        phone: "123-456-7890",
+        imgSrc: "../../assets/img/team/teach/2.jpg",
+        imgAlt: "Prof. Dr. Shantel Cox",
+        name: "Prof. Dr. Shantel Cox",
+        title: "Instructor",
+        description: "BA, MA & PhD Business Admin...",
+        location: "789 Oak Street, San Francisco",
+        email: "richard@example.com",
+        phone: "444-555-6666",
         biography:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters packages and web page editors now usepackages and web page editors now use. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-        skills: "Theology, Chaplaincy, Counseling",
-        alink: `<a href="e-teachers/dornett/dornett.html">LEARN MORE</a>`,
+          "Prof. Dr. Shantel Cox is the program director for the counseling and psychology department.",
+        skills: "Counseling, Psychology, Mental Health",
+        alink: "<a href='e-teachers/shantel/shantel.html'>LEARN MORE</a>",
       },
     ],
   },
 ];
-
-// console.log("data", pageData.items);
