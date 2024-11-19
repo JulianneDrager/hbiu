@@ -27,28 +27,26 @@ document.addEventListener("DOMContentLoaded", () => {
             ${pageData.description}
           </p>
           ${pageData.items.map((item) => {
-            return `
-          <div class="team-details-info">
-            <ul>
-              <li>
-                <a href="#"><i class="far fa-location-dot"></i> 25/B Milford Road,
-                  ${item.location}</a>
-              </li>
-              <li>
-                <a href="#"><i class="far fa-envelope"></i> ${item.email}</a>
-              </li>
-              <li>
-                <a href="#"><i class="far fa-phone"></i> ${item.phone}</a>
-              </li>
-            </ul>
-          </div>
-          `;
+            //   return `
+            // <div class="team-details-info">
+            //   <ul>
+            //     <li>
+            //       <a href="#"><i class="far fa-location-dot"></i> 25/B Milford Road,
+            //         ${item.location}</a>
+            //     </li>
+            //     <li>
+            //       <a href="#"><i class="far fa-envelope"></i> ${item.email}</a>
+            //     </li>
+            //     <li>
+            //       <a href="#"><i class="far fa-phone"></i> ${item.phone}</a>
+            //     </li>
+            //   </ul>
+            // </div>
+            // `;
           })}
           <div class="team-details-social">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-whatsapp"></i></a>
-            <a href="#"><i class="fab fa-behance"></i></a>
-            <a href="#"><i class="fab fa-pinterest"></i></a>
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
@@ -74,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       `;
            })}
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="team-skill">
           <h4 class="mb-3">Professional Skills</h4>
           <div class="skills-section">

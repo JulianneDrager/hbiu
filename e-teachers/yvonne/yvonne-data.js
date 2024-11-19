@@ -1,8 +1,9 @@
 const pageData = [
   {
     title: "Yvonne",
-    description:
-      "Prof. Dr. Yvonne Solomon is the program director for the counseling and psychology department.",
+    description: `Dr. Prof. Yvonne Solomon is a distinguished academic and researcher with extensive expertise in her field. She has made significant contributions through her work, earning recognition for both her research and her role in academia. Throughout her career, Dr. Solomon has worked to bridge theory with practical applications, addressing key issues in her area of focus.
+
+In addition to her research, Dr. Solomon is a passionate educator who has mentored many students and professionals. Her work continues to shape her field, and she is actively involved in global collaborations that drive forward new developments and innovations.`,
     items: [
       {
         imgSrc: "../../assets/img/team/teach/26.jpg",
@@ -13,12 +14,10 @@ const pageData = [
         location: "789 Oak Street, San Francisco",
         email: "richard@example.com",
         phone: "444-555-6666",
-        biography:
-          "Prof. Dr. Yvonne Solomon  is the program director for the counseling and psychology department.",
-        skills: "Counseling, Psychology, Mental Health",
+        biography: "",
+        skills: "",
         alink: "<a href='e-teachers/yvonne/yvonne.html'>LEARN MORE</a>",
       },
     ],
   },
 ];
-

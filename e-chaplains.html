@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- title -->
+    <title>HBIU</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css  " />
+
+    <style>
+      /* Lightbox styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    user-select: none;
+    content: "TEST";
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .gallery-content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+  }
+  
+  .gallery-content::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      background: var(--theme-color);
+      border-radius: 8px;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+  }
+  
+  
+    /* Gallery image hover effect */
+    .gallery-img img {
+      transition: transform 0.3s ease;
+    }
+  
+    .gallery-img img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+  
+    </style>
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="loader-book">
+        <div class="loader-book-page"></div>
+        <div class="loader-book-page"></div>
+        <div class="loader-book-page"></div>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- HEADER GOES HERE -->
+    <div id="header-container"></div>
+
+    <!-- popup search -->
+    <div class="search-popup">
+      <button class="close-search"><span class="far fa-times"></span></button>
+      <form action="#">
+        <div class="form-group">
+          <input
+            type="search"
+            name="search-field"
+            placeholder="Search Here..."
+            required
+          />
+          <button type="submit"><i class="far fa-search"></i></button>
+        </div>
+      </form>
+    </div>
+    <!-- popup search end -->
+
+    <main class="main">
+      <!-- breadcrumb -->
+      <div
+        class="site-breadcrumb"
+        style="background: url(assets/img/chaplains/cover.jpg)"
+      >
+        <div class="container">
+          <h2 class="breadcrumb-title">Chaplaincy</h2>
+          <ul class="breadcrumb-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Chaplaincy</li>
+          </ul>
+        </div>
+      </div>
+      <!-- breadcrumb end -->
+
+      <!-- about area section one ------------------------------------------------>
+      <div class="about-area mt-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+                <div class="about-img" style="width: 100%; height: auto">
+                  <img src="assets/img/chaplains/head-instructors.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+                <div class="site-heading mb-3">
+                  <span class="site-title-tagline"
+                    ><i class="far fa-book-open-reader"></i> Chaplains</span
+                  >
+                  <h2 class="site-title">
+                    <!-- Our Education System <span>Inspires</span> You More. -->
+                    HBIU Love <span>International</span> Chaplaincy
+                  </h2>
+                </div>
+
+                <h3 class="mt-5">What is a Chaplain?​</h3>
+                <p class="about-text">
+                  Chaplains hold a vital place within the pastoral ministry. They enter the lives of suffering people during times of serious emotional, physical, and spiritual crisis. They are loving caregivers who stand beside those who are suffering and offer them prayer, encouragement, and spiritual direction. Often, this includes ministry to entire families. As such, chaplains have to be more than just well-meaning volunteers.
+                </p>
+                <p class="about-text mt-2">
+                  Qualified chaplains are deeply committed to Scriptural integrity. Whether in hospice care, hospitals, institutional correctional centers, first responder situations, campuses, or nursing homes, HBI strives for excellence in supporting the special men and women intent on ministering God’s unfailing love to a hurting world.
+                </p>
+                <p class="about-text mt-2">
+                  Christian chaplains are caring men and women of God who demonstrate God’s love for a hurting world by sharing the gospel of Jesus Christ.
+                </p>
+                <button class="theme-btn">
+                  <a href="./e-chaplains-gallery.html">
+                  VIEW CHAPLAIN GALLERY<i class="fas fa-arrow-right-long"></i>
+                </a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- about area section two ------------------------------------->
+        <div class="container" style="margin-top: 2rem">
+          <div
+            class="row align-items-center"
+            style="display: flex; flex-direction: row-reverse"
+          >
+            <div class="col-lg-6 ps-5">
+              <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+                <div class="about-img">
+                  <img src="assets/img/chaplains/cover-hor.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+                <div class="site-heading">
+                  <!-- TITLE --------------------------------------------- -->
+                  <h2 class="site-title">Chaplaincy Service</h2>
+                </div>
+                <p class="about-text mt-2 mb-10">
+                  The following job descriptions demonstrate ways you can serve as a chaplain.
+                </p>
+
+                <p class="about-text">
+                  <b>PUBLIC SAFETY CHAPLAINCY:</b> Work within law enforcement agencies such as police, fire and sheriff's departments.
+                </p>
+                <p class="about-text mt-2">
+                  <b>HOSPICE CARE CHAPLAINS:</b> Work with individuals who are dying and their families. It is very important that Hospice Care Chaplains learn to develop their communication and faith-based skills when working with those who are dying and their families.
+                </p>
+                <p class="about-text mt-2">
+                  <b>PRISON CHAPLAINS:</b> Work in prisons and provide references for the scriptural mandate for prison ministry; explain why believers should be involved in prison ministry; articulate the spiritual goals of jail and prison ministry; and summarize what the Gospel has to offer prison inmates.
+                </p>
+
+                <p class="about-text mt-2">
+                  <b>DISASTER RELIEF CHAPLAINS:</b> Work on sites and in within communities experiencing devastating disasters, such as floods, tornado and fire aftermath. As a disaster relief chaplain it’s essential that you embody an ability to communicate through the use of proper training.
+                </p>
+
+                <p class="about-text mt-2">
+                  <b>NURSING HOME CHAPLAINS:</b> Work with elderly people who are often confused, depressed and, in many cases, dying. Nursing home chaplains have to be dedicated, understanding, and have the love of Christ in their hearts to reach out to those who are coming to the end of their lives.
+                </p>
+
+                <p class="about-text mt-2">
+                  <b>DOMESTIC ABUSE CHAPLAIN:</b> Work in shelters, hospitals, churches and organizations who work with abuse victims. They require a working knowledge of domestic violence skills training to help members of their ministries, churches, and communities.
+                 
+                </p>
+                <p class="about-text mt-2">
+                  <b>Contact us to inquire about becoming a Chaplain. Dr. Karen Williams</b>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- about area section three ------------------------------------------------>
+      <div class="container" style="margin-top: 5rem">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+              <div class="about-img">
+                <img src="assets/img/chaplains/cert-1.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+              <div class="site-heading mb-3">
+                <!-- Title -------------------------- -->
+                <h2 class="site-title">Chaplaincy Director</h2>
+              </div>
+              <p class="about-text">
+                Obtain your own Chaplaincy Chapter through HBIU, and make an impact in your community. Contact us to purchase your certificate.<br/>
+                <b>Price: $400.00 </b><br/>
+                Excluding Sales Tax
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- about area section four ------------------------------------->
+      <div class="container" style="margin-top: 5rem">
+        <div
+          class="row align-items-center"
+          style="display: flex; flex-direction: row-reverse"
+        >
+          <div class="col-lg-6 ps-5">
+            <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+              <div class="about-img">
+                <img src="assets/img/chaplains/cert-2.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+              <div class="site-heading mb-3">
+                <!-- TITLE --------------------------------------------- -->
+                <h2 class="site-title">Chaplaincy Certificate</h2>
+              </div>
+              <p class="about-text">
+                Become a Chaplain and fulfil your desire to help those in need within your community.  Contact us to purchase your certificate.<br/>
+                <b>Price: $600.00 </b><br/>
+                Excluding Sales Tax
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <!-- gallery-area -->
+    <div class="gallery-area py-120">
+      <div class="container">
+        <div class="site-heading mb-3">
+          <span class="site-title-tagline"
+            ><i class="far fa-book-open-reader"></i> Gallery</span
+          >
+          <h2 class="site-title">
+            <!-- Our Education System <span>Inspires</span> You More. -->
+            HBIU Chaplaincy <span>Gallery</span>  
+          </h2>
+        </div>
+        <!-- <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="site-heading text-center">
+              <span class="site-title-tagline"
+                ><i class="far fa-book-open-reader"></i> Gallery</span
+              >
+              <h2 class="site-title">We Get <span>Results</span></h2>
+              <p>
+                Our purpose is built on putting the student first, and as a
+                result, we continue to attract students who are interested in
+                having a more one-on-one educational experience, one Lecture
+                at a time
+              </p>
+            </div>
+          </div>
+     
+        </div> -->
+      
+        <div class="row popup-gallery" id="gallery-chap-items">
+          <!-- GE-Gallery items will be injected here by JavaScript -->
+        </div>
+      
+      </div>
+      </div>
+    </div>
+
+<!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+
+      <br />
+      <br />
+      <!-- about area end -->
+    </main>
+
+    <!-- FOOTER GOES HERE -->
+    <div id="footer-container"></div>
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up-from-arc"></i></a>
+    <!-- scroll-top end -->
+
+    <!-- js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+        <!-- header and footer -->
+        <script src="/e-header/header.js"></script>
+        <script src="/e-footer/footer.js"></script>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const galleryItemsContainer = document.getElementById("gallery-chap-items");
+      
+          
+      
+            const galleryData = [
+              {
+                description: "Description of the gallery",
+                items: [
+                  { imgSrc: "assets/img/gallery/chap-1.webp", imgAlt: "chaplaincy Group Photo", },
+                  { imgSrc: "assets/img/gallery/chap-2.webp", imgAlt: "chaplaincy Group Photo", },
+                  { imgSrc: "assets/img/gallery/chap-3.webp", imgAlt: "Worship", },
+                  { imgSrc: "assets/img/gallery/chap-4.webp", imgAlt: "Worship", },
+                  { imgSrc: "assets/img/gallery/chap-5.webp", imgAlt: "Chaplaincy Pastor", },
+                  { imgSrc: "assets/img/gallery/chap-6.webp", imgAlt: "Chancellor Dornett", },
+                  { imgSrc: "assets/img/gallery/chap-7.webp", imgAlt: "Ordination Celebration", },
+                  { imgSrc: "assets/img/gallery/chap-8.webp", imgAlt: "chaplaincy Graduation", },
+                  { imgSrc: "assets/img/gallery/chap-9.webp", imgAlt: "Chaplaincy Pastor", },
+
+                ]
+              }
+            ];
+      
+         
+            // Function to render gallery items based on the provided range
+          
+            galleryData[0].items.forEach((item, index) => {
+                const galleryItem = document.createElement("div");
+                galleryItem.className = `col-md-4 wow fadeInUp`;
+                galleryItem.setAttribute("data-wow-delay", `${0.15 * (index + 1)}s`);
+      
+                galleryItem.innerHTML = `
+                  <div class="gallery-item" ">
+                    <div class="gallery-img">
+                      <img src="${item.imgSrc}" alt="${item.imgAlt}" />
+                    </div>
+                    <div class="gallery-content">
+                    <a><img src="assets/img/gallery/plus.png" data-index="${index}" class="gallery-link-i"/></a>
+                    </div>
+                  </div>
+                  
+                `;
+                galleryItemsContainer.appendChild(galleryItem);
+              });
+      
+            const readMoreBtn = document.getElementById("readMoreBtn");
+            const lightbox = document.getElementById("lightbox");
+            const lightboxImg = document.getElementById("lightbox-img");
+            const captionText = document.getElementById("caption");
+            const closeBtn = document.getElementsByClassName("close")[0];
+            const prevBtn = document.getElementsByClassName("prev")[0];
+            const nextBtn = document.getElementsByClassName("next")[0];
+            let currentIndex = 0;
+      
+            function showImage(index) {
+              const item = galleryData[0].items[index];
+              lightboxImg.src = item.imgSrc;
+              captionText.innerHTML = item.imgAlt;
+              currentIndex = index;
+            }
+      
+            document.querySelectorAll(".gallery-link-i").forEach((thumb) => {
+              thumb.addEventListener("click", (event) => {
+                event.preventDefault();
+                const index = parseInt(thumb.getAttribute("data-index"));
+                lightbox.style.display = "block";
+                showImage(index);
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              });
+            });
+      
+            closeBtn.addEventListener("click", () => {
+              lightbox.style.display = "none";
+            });
+      
+            prevBtn.addEventListener("click", () => {
+              currentIndex = (currentIndex - 1 + galleryData[0].items.length) % galleryData[0].items.length;
+              showImage(currentIndex);
+            });
+      
+            nextBtn.addEventListener("click", () => {
+              currentIndex = (currentIndex + 1) % galleryData[0].items.length;
+              showImage(currentIndex);
+            });
+          });
+        </script>
+  </body>
+</html>
