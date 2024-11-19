@@ -100,7 +100,7 @@ const pagesData = [
     duration: `4 Months`,
     language: `English`,
     skillLevel: `Intermediate`,
-    location: `Online/On Campus`,
+    location: `online`,
     students: 98,
     certificate: `Yes`,
     assessments: `Yes`,

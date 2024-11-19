@@ -45,7 +45,7 @@ const pagesData = [
     // duration: `2 Years`,
     // language: `English`,
     // skillLevel: `Intermediate`,
-    // location: `online/on campus`,
+    // location: `online`,
     // students: 98,
     // certificate: `Yes`,
     // assessments: `Yes`,
